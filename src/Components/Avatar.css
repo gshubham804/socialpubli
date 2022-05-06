@@ -13,7 +13,6 @@
 .avatar-main-orange {
   height: 27rem;
   width: 100%;
-  
   background-color: rgb(244, 147, 32);
 }
 
@@ -55,4 +54,18 @@
 .avatar-button>button:hover{
     background-color: rgb(244,147,32);
     border-color:black ;
+}
+
+@media screen and (max-width:414px) {
+
+  .avatar-main-orange {
+    height: 28rem;
+  }
+  .avatar-button{
+    display: flex;
+    flex-direction: column;
+      }
+      .avatar-button>*{
+        margin-bottom: 0.8rem;
+      }
 }

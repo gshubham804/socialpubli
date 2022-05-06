@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <Avatar/>
-    <BankAndKyc/>
-    <Editprofilepage/>
+    {/* <BankAndKyc/> */}
+    {/* <Editprofilepage/> */}
     </>
   );
 }
